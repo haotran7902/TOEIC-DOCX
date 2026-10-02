@@ -134,5 +134,81 @@ Các công ty AI đã tạo ra những mô hình AI có sức mạnh vượt tr�
 
 Dòng tích lũy về lượng cuối cùng đó là công nghệ và kỹ năng.<br/>
 Công nghệ kỹ năng ở đây là yếu tố về hạ tầng và con ngưòi.<br/>
-Về hà tầng thì có mạng kết nối
+Về hạ tầng thì có mạng kết nối, công cụ lưu trữ và phần mềm chuyên dụng không ngừng được nâng cấp.<br/>
+Để có thể đáp ứng được hạ tầng đó thì về mặt con người<br/>
+Chúng ta thấy có sự tăng mạnh cả về số lượng lẫn chất lượng các đội ngũ kỹ sư và chuyên gia vận hành hệ thống
 
+## Slide 15
+
+Tiếp theo chúng ta hãy cùng xem khái niệm độ được biểu hiện như thế nào đối với năng lực máy tính và AI
+
+Kể từ hội nghị dartmouth năm 1956 đến trước năm 2012, lượng của AI không ngừng tăng: thuật toán phong phú hơn, máy tính nhanh hơn, dữ liệu nhiều hơn.<br/>
+Thế nhưng trong giai đoạn này AI vẫn chỉ thực hiện những chỉ dẫn dựa vào quy tắc con ngưòi đặt ra. Các hệ thống vẫn chỉ giải quyết được các bài toán hẹp.
+
+DeepBlue là ví dụ tiêu biểu. Mặc dù nó đánh bại được nhà vô địch cờ vua thế giới.<br/>
+Theo công bố thì Deepblue có thể tính toán được 200 triệu thế cờ mỗi giây<br/>
+Về lượng thì đó là bước tiến vượt bậc<br/>
+Nhưng về chất thì DeepBlue vẫn tìm nước cờ theo hàm đánh giá mà chuyên gia đã soạn sẵn và ngoài bàn cờ nó không làm được vì gì khác.
+
+Và cũng trong giai đoạn này, hay mùa đông AI đã xuất hiện:
++ Giai đoạn 1 nằm giữa thập niên 1970
++ Giai đoạn 2 từ cuối thập niên 1980 sang đều thập niên 1990.
+
+Lúc này ngưòi ta kỳ vọng tạo ra một máy tính thông minh như người, tuy nhiên lúc này lượng tích lũy còn các điểm nút rất xa.<br/>
+Và hệ quả dẫn đến niềm tin và việc đầu tư vào AI giảm mạnh.
+
+Qua đó chúng ta cần rút ra bài học đó là không thể đốt cháy giai đoạn trong quá trình tích lũy độ.
+
+## Slide 16
+
+Đến năm 2012, một điểm nút đã xuất hiện trong việc phát triển AI. Đó là sự ra đời của mạng nơ-ron AlexNet.<br/>
+AlexNet đã chiến thắng trong cuộc thi nhận dạng ảnh với tỷ lệ lỗi 15.3%, bỏ xa đội thứ 2 dùng phương pháp truyền thống có tỷ lệ lỗi lên đến 26.2%
+
+Tại sao con số 15.3% là bước ngoặt?
+Chúng ta cùng xem tỷ lệ lỗi của các đội thắng cuộc trong các cuộc thi nhận dạng ảnh trước đó:
++ Năm 2010 tỷ lệ lỗi là 28.2%
++ Năm 2011 là 25.8%
+
+Có nghĩa là con số chỉ thay đổi một vài phần trăm, không đáng kể.
+
+Bước ngoặt này không phải ngẫu nhiên được tạo ra, nó là thành quả của việc hội tụ 3 dòng về lượng:
+...
+
+Và nhờ bước ngoặt này, những năm sau đó tỷ lệ lỗi liên tục được cải thiện, và đến năm 2015, tỷ lệ lỗi chỉ còn là 3.57%
+
+Qua các con số mình đưa ra thì phần nào các bạn cũng có thể thấy sự phát triển của AI trước và sau điểm nút.
+
+## Slide 17
+
+Sau năm 2022 thì AI đã bước vào một độ mới, đó là học sâu đạt nhiều thành tựu nhưng mỗi mô hình vẫn chỉ phục vụ một nhiệm vụ riêng.<br/>
+Lượng lại tiếp tục được tích lũy và dấn ấn nổi bật đó là kiến trúc Transfromer ra đời vào năm 2017
+
+Và sau đó đến năm 2022, ChatGPT chính thức ra mắt công chúng.
+
+## Slide 18
+
+Các bạn còn nhớ nhận định "bước nhảy được thực hiện với quy mô và nhịp độ khác nhau không?"<br/>
+Thực tế các lĩnh vực hẹp của AI không nhảy vọt cùng 1 lúc<br/>
+Các bạn có thể quan sát các mốc mà lĩnh vực AI so sự nhảy vọt ở đây:
+...
+
+Các bạn có thể thấy những lĩnh vực dễ số hóa và có tiêu chí đánh giá rõ ràng, cụ thể thì có khả năng đạt bước tiến sớm hơn.<br/>
+Ngược lại lĩnh vực xe tự lái vốn là lĩnh vực yêu cầu an toàn cao, phải trực tiếp tương tác với môi trường thực tế phức tạp thì vẫn đang ở trong độ, vẫn cần thời gian tích lũy về lượng để có thể đạt đến điểm nút.
+
+## Slide 19
+
+Đến đây, mình sẽ chứng minh máy móc đã có sự thay đổi về chất.<br/>
+Như các tiêu chí về khái niệm về chất mình đã đưa ra ở phần 1<br/>
+Muốn khẳng định có chất mới cần phải chỉ ra những thuộc tính cơ bản đã thay đổi<br/>
+Thì mình nhận thấy có 3 biểu hiện sau:<br/>
+...<br/>
+Trước đây máy móc chỉ tham gia hỗ trợ lao động thì giờ đây đã tham gia vào việc xử lý thông tin và có thể suy luận như con người.
+
+Như vậy thông qua bước nhảy, tức là đã thay đổi về chất thì máy móc đã có thể tự động hóa những công việc vốn trước đây cần có con ngưòi, đó là công việc về kiểm tra, quản lý, xử lý thông tin.
+
+Đồng thời bước nhảy cũng dẫn đến sự chuyển hóa về lao động, đó là tỷ trọng lao động trong lĩnh vực xử lý thông tin ngày càng tăng.
+
+Như vậy bước nhảy về chất của lĩnh vực trí tuệ nhân tạo là một bước nhảy vọt<br/>
+Và nhờ bước nhảy vọt ấy cũng góp phần vào việc thay đổi hình thức lao động trong cuộc cách mạng 4.0, đó là sự góp mặt của AI trong lao động sản xuất.
+
+Như vậy mình đã trình bày xong phần 2...
