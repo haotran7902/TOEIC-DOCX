@@ -180,7 +180,7 @@ Qua các con số mình đưa ra thì phần nào các bạn cũng có thể th�
 
 ## Slide 17
 
-Sau năm 2022 thì AI đã bước vào một độ mới, đó là học sâu đạt nhiều thành tựu nhưng mỗi mô hình vẫn chỉ phục vụ một nhiệm vụ riêng.<br/>
+Sau năm 2012 thì AI đã bước vào một độ mới, đó là học sâu đạt nhiều thành tựu nhưng mỗi mô hình vẫn chỉ phục vụ một nhiệm vụ riêng.<br/>
 Lượng lại tiếp tục được tích lũy và dấn ấn nổi bật đó là kiến trúc Transfromer ra đời vào năm 2017
 
 Và sau đó đến năm 2022, ChatGPT chính thức ra mắt công chúng.
