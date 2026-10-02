@@ -123,5 +123,16 @@ Ví dụ với tập dữ liệu ImageNet có hơn 1.2 triệu ảnh được g�
 Và đây cũng là một trong số các yếu tố quan trọng giúp mạng nơ ron AlexNet vào năm 2022 đạt bước ngăotj trong việc nhận dạng ảnh.
 
 ## Slide 14
-Dòng thứ ba là năng lực tính toán
+Dòng thứ ba là năng lực tính toán<br/>
+Một khi dữ liệu đã quá lớn thì đòi hỏi phần cứng phải đáp ứng.<br/>
+Năng lực phần cứng mình nói tới ở đây là vi mạch, vi tiện tử, GPU tốc độ cao.
+
+Cột mốc minh chứng cho điều này đó là nhờ có GPU đủ mạnh đã giúp huấn luyện thành công mô hình AlexNet.
+
+Và các bạn có thể thấy nhớ phần cứng mạnh, GPU mạnh cùng với lượng dữ liệu ngày càng lớn<br/>
+Các công ty AI đã tạo ra những mô hình AI có sức mạnh vượt trội
+
+Dòng tích lũy về lượng cuối cùng đó là công nghệ và kỹ năng.<br/>
+Công nghệ kỹ năng ở đây là yếu tố về hạ tầng và con ngưòi.<br/>
+Về hà tầng thì có mạng kết nối
 
