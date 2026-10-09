@@ -294,7 +294,69 @@ Hai công nghệ này giúp mở rộng năng lực xử lý bằng cách phối
 Một cửa hàng nhỏ có vài nghìn giao dịch mỗi tháng có thể sử dụng Excel hoặc SQL để thống kê doanh thu. Tuy nhiên, một sàn thương mại điện tử có hàng triệu giao dịch mỗi ngày, hàng tỷ lượt truy cập và lượng lớn hình ảnh sản phẩm sẽ khó xử lý hiệu quả bằng các phương pháp thông thường. Khi đó, sàn có thể sử dụng Hadoop để lưu trữ dữ liệu phân tán và Spark để phân tích hành vi khách hàng, dự đoán xu hướng mua sắm và đề xuất sản phẩm phù hợp.
 
 
-## Cau 12 Thế nào là phân tích mô tả, phân tích chẩn đoán? Lấy ví dụ minh họa
+## Câu 12 Thế nào là phân tích mô tả, phân tích chẩn đoán? Lấy ví dụ minh họa
+### Phân tích mô tả
+Trả lời: "Điều gì đã xảy ra?"
+- Tóm tắt lại dữ liệu quá khứ
+- Thống kê cơ bản: trung bình, trung vị, phương sai
+- Biểu đồ: histogram, bar chart, pie chart
+- Ví dụ: Doanh thu tháng 1 là bao nhiêu
+- Mục tiêu: Hiểu dữ liệu một cách trực quan
+
+### Phân tích chẩn đoán
+Trả lời: "Tại sao điều đó xảy ra?"
+- Tìm ra nguyên nhân, mối quan hệ
+- Phân tích tương quan, hồi quy cơ bản
+- Drill-down, so sánh nhóm dữ liệu
+- Ví dụ: "Vì sao doanh thu tháng 2 giảm"
+
+### 1. Khái niệm
+
+Phân tích dữ liệu là quá trình thu thập, xử lý và khai thác dữ liệu để tìm ra thông tin hữu ích, hỗ trợ con người hiểu tình hình, tìm nguyên nhân và đưa ra quyết định. Trong Big Data (dữ liệu lớn), phân tích dữ liệu đóng vai trò đặc biệt quan trọng vì khối lượng dữ liệu rất lớn, đa dạng và liên tục phát sinh.
+
+Có hai loại phân tích cơ bản:
+
+* Phân tích mô tả (Descriptive Analytics): Trả lời câu hỏi Điều gì đã xảy ra? bằng cách tổng hợp dữ liệu thành báo cáo, bảng biểu và biểu đồ.
+
+* Phân tích chẩn đoán (Diagnostic Analytics): Trả lời câu hỏi Tại sao điều đó xảy ra? bằng cách tìm kiếm mối liên hệ, so sánh và xác định nguyên nhân của hiện tượng.
+
+### 2. Phân tích trong khía cạnh dữ liệu lớn
+
+* Phân tích mô tả: Với Big Data, hệ thống có thể tổng hợp hàng triệu giao dịch, lượt truy cập hoặc phản hồi của khách hàng để đưa ra bức tranh tổng quan về hoạt động. Các công nghệ như Hadoop và Spark hỗ trợ xử lý dữ liệu trên quy mô lớn.
+
+* Phân tích chẩn đoán: Sau khi biết điều gì đã xảy ra, hệ thống tiếp tục phân tích sâu hơn để tìm nguyên nhân. Việc kết hợp dữ liệu từ nhiều nguồn giúp phát hiện các mối liên hệ mà cách phân tích thông thường khó nhận ra
 
 
 ## Câu 13 Thế nào là ra quyết định, vai trò của dữ liệu lớn? Lấy ví dụ minh họa
+### 1. Khái niệm ra quyết định
+
+Ra quyết định là quá trình lựa chọn một phương án hành động phù hợp nhất trong nhiều phương án khác nhau nhằm giải quyết một vấn đề hoặc đạt được mục tiêu cụ thể. Trong hoạt động quản lý, con người là chủ thể đưa ra quyết định, dựa trên kinh nghiệm, kiến thức, mục tiêu và thông tin thu thập được.
+
+Để hỗ trợ con người, máy tính được sử dụng để xây dựng các hệ thống hỗ trợ ra quyết định (DSS – Decision Support Systems), giúp thu thập, phân tích dữ liệu, dự báo và so sánh các phương án.
+
+### 2. Vai trò của dữ liệu lớn trong ra quyết định
+
+Big Data đóng vai trò quan trọng trong việc nâng cao chất lượng ra quyết định:
+
+* Cung cấp thông tin: Thu thập dữ liệu khổng lồ từ nhiều nguồn để phản ánh tình hình thực tế.
+
+* Phân tích và dự báo: Phát hiện xu hướng, quy luật và dự đoán các tình huống có thể xảy ra.
+
+* Xây dựng nhiều mô hình: Sử dụng dữ liệu lớn để tạo ra các phương án khác nhau, đánh giá ưu nhược điểm và dự đoán kết quả của từng phương án.
+
+* Giảm rủi ro: Giúp con người đưa ra quyết định dựa trên bằng chứng và dữ liệu thay vì chỉ dựa vào cảm tính.
+
+Tuy nhiên, dữ liệu lớn chỉ cung cấp cơ sở thông tin và các phương án tham khảo. Dữ liệu sai lệch hoặc mô hình không phù hợp vẫn có thể dẫn đến kết quả sai.
+
+### 3. Ví dụ minh họa
+
+Một siêu thị muốn quyết định lượng hàng hóa cần nhập vào dịp Tết. Siêu thị sử dụng Big Data để phân tích lịch sử bán hàng, thời tiết, xu hướng mua sắm, giá cả và hành vi khách hàng.
+
+Từ đó, hệ thống xây dựng nhiều mô hình dự báo: nhập hàng theo mức tiêu thụ trung bình, nhập hàng theo xu hướng tăng trưởng hoặc nhập hàng theo từng khu vực. Hệ thống đưa ra kết quả dự kiến về doanh thu, chi phí lưu kho và nguy cơ thiếu hàng của mỗi phương án.
+
+Dựa trên các phân tích này, người quản lý cân nhắc ngân sách, chiến lược kinh doanh và tình hình thực tế để lựa chọn phương án phù hợp nhất.
+
+### 4. Kết luận
+
+Big Data giúp quá trình ra quyết định trở nên khoa học, nhanh chóng và có cơ sở hơn. Máy tính có thể phân tích lượng dữ liệu lớn và đề xuất nhiều phương án, nhưng con người vẫn giữ vai trò quyết định cuối cùng, bởi con người phải chịu trách nhiệm, cân nhắc các yếu tố đạo đức, mục tiêu và bối cảnh thực tế.
+
