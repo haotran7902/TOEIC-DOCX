@@ -1,3 +1,124 @@
+```mermaid
+classDiagram
+    direction LR
+
+    class users {
+        +bigint user_id PK
+        +varchar email UK
+        +varchar first_name
+        +varchar last_name
+        +varchar password_hash
+        +varchar phone_number
+        +varchar address
+        +varchar avatar_url
+        +varchar role
+        +datetime created_at
+        +datetime updated_at
+    }
+
+    class categories {
+        +bigint category_id PK
+        +varchar category_name UK
+        +varchar description
+        +bigint parent_id FK
+    }
+
+    class products {
+        +bigint product_id PK
+        +varchar sku UK
+        +varchar product_name
+        +text description
+        +decimal price
+        +int stock_quantity
+        +bit is_active
+        +bigint category_id FK
+        +datetime created_at
+        +datetime updated_at
+    }
+
+    class images {
+        +bigint image_id PK
+        +varchar path UK
+        +varchar mime_type
+        +int width
+        +int height
+        +datetime created_at
+    }
+
+    class product_images {
+        +bigint product_id PK_FK
+        +bigint image_id PK_FK
+        +int sort_order
+    }
+
+    class banners {
+        +bigint banner_id PK
+        +PageType page
+        +BannerType type
+    }
+
+    class banner_images {
+        +bigint banner_id PK_FK
+        +tinyint slot PK
+        +bigint image_id FK
+        +varchar link_url
+    }
+
+    class cart_items {
+        +bigint user_id PK_FK
+        +bigint product_id PK_FK
+        +int quantity
+        +datetime created_at
+        +datetime updated_at
+    }
+
+    class orders {
+        +bigint order_id PK
+        +bigint user_id FK
+        +varchar receiver_name
+        +varchar receiver_phone
+        +varchar shipping_address
+        +varchar status
+        +decimal total_amount
+        +datetime created_at
+        +datetime updated_at
+    }
+
+    class order_items {
+        +bigint order_id PK_FK
+        +bigint product_id PK_FK
+        +int quantity
+        +decimal unit_price
+    }
+
+    class PageType {
+        <<enumeration>>
+        HOME
+        CATEGORY
+    }
+
+    class BannerType {
+        <<enumeration>>
+        SINGLE
+        DOUBLE
+        TRIPLE
+    }
+
+    categories "0..1" <-- "*" categories : parent_id
+    categories "1" --> "*" products : category_id
+    users "1" --> "*" orders : đặt hàng
+    users "1" --> "*" cart_items : giỏ hàng
+    products "1" --> "*" cart_items
+    orders "1" *-- "*" order_items : gồm
+    products "1" --> "*" order_items
+    products "1" *-- "*" product_images : CASCADE
+    images "1" --> "*" product_images
+    banners "1" *-- "*" banner_images : CASCADE
+    images "1" --> "*" banner_images
+    banners ..> PageType
+    banners ..> BannerType
+```
+
 ## L1 Tổng quan
 ## Dữ liệu
 Dữ liệu ở khắp mọi nơi.
